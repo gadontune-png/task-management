@@ -17,5 +17,5 @@ def validate_due_date(due_date):
         datetime.strptime(due_date, "%Y-%m-%d")
         return True
     except ValueError:
-        print("Invalid date format. Use YYYY-MM-DD.")
+        print("Invalid date format.")
         return False
